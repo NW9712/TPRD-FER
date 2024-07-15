@@ -21,14 +21,13 @@ except KeyError:
 
 def draw_confusion_matrix(label_true, label_pred, label_name, normlize, title="Confusion Matrix", pdf_save_path=None, dpi=100):
     """
-
-    @param label_true: 真实标签，比如[0,1,2,7,4,5,...]
-    @param label_pred: 预测标签，比如[0,5,4,2,1,4,...]
-    @param label_name: 标签名字，比如['cat','dog','flower',...]
-    @param normlize: 是否设元素为百分比形式
-    @param title: 图标题
-    @param pdf_save_path: 是否保存，是则为保存路径pdf_save_path=xxx.png | xxx.pdf | ...等其他plt.savefig支持的保存格式
-    @param dpi: 保存到文件的分辨率，论文一般要求至少300dpi
+    @param label_true:
+    @param label_pred:
+    @param label_name:
+    @param normlize:
+    @param title:
+    @param pdf_save_path:
+    @param dpi:
     @return:
 
     example：
