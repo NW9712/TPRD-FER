@@ -20,11 +20,11 @@ data/
 ├─ RAF-DB/
 │  ├─ basic/
 │  │  ├─ EmoLabel/
-│  │  │  ├─ images.txt
-│  │  │  ├─ image_class_labels.txt
-│  │  │  ├─ train_test_split.txt
+│  │  │  ├─ list_patition_label.txt
+│  │  │  ├─ rafdb_occlusion_list.txt
+│  │  │  ├─ val_raf_db_list.txt
+│  │  │  ├─ val_raf_db_list_45.txt
 │  │  ├─ Image/
-│  │  │  ├─ aligned/
 │  │  │  ├─ aligned_224/  # reagliend by MTCNN
 ```
 
